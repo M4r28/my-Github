@@ -1,0 +1,18 @@
+#profile-pic{
+  border-radius: 50%;
+  height: 180px;
+}
+
+#search{
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+}
+
+#search:focus {
+  outline:2px solid hotpink;
+}
+
+.btn-secondary{
+  background-color: hotpink;
+  border: hotpink;
+}
