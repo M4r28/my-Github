@@ -1,35 +1,17 @@
 # myGithub
 
-A webapp to consume Github Api
+A web app that consumes the Github Api with a search option that allows to browse users and view their profile and their public repositories.
 
-## Setup:  
-- Create an new OAuth App [here](https://github.com/settings/developers)
-- You can now consume the API with (e.g.)  
--> User data https://api.github.com/users/leandroDCI?client_id=XXX&client_secret=YYY  
--> User repos https://api.github.com/users/leandroDCI/repos?client_id=xxxx&client_secret=yyyy  
-## Requirements:
-- Create a **Class** and methods
-- Use Bootstrap (optional but strongly suggested)
+## Tech stack: 
+- HTML5
+- CSS
+- JavaScript
+- Bootstrap
 
-## Features:
-- When you load the app it shows a user and his/her repos  
-- You can search for other users
-- Feel free to implement other features (filterning, sorting, etc)
+## Preview
 
+![Screenshot](./preview.png)
 
-## Bonus:  
+## Demo
 
-```
-fetch(apiUrl)
-.then(
-	response => response.json()
-)
-.then(
-	repos => repos.forEach( 
-		repo => console.log(repo)
-	)
-)
-.catch(
-	err => console.log(`panic: ${err}`)
-)
-```
+Try the [live demo](https://m4r28.github.io/my-Github/).
