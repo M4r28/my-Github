@@ -1,3 +1,8 @@
+body {
+  padding: 15px;
+}
+
+
 #profile-pic{
   border-radius: 50%;
   height: 180px;
@@ -6,10 +11,14 @@
 #search{
       border: 1px solid lightgrey;
       border-radius: 5px;
+      text-indent: 7px;
+
 }
 
 #search:focus {
-  outline:2px solid hotpink;
+  outline: none;
+ border: 1px solid hotpink;
+
 }
 
 .btn-secondary{
