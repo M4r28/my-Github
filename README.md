@@ -15,3 +15,6 @@ A web app that consumes the Github Api with a search option that allows to brows
 ## Demo
 
 Try the [live demo](https://m4r28.github.io/my-Github/).
+
+## Note
+Project uses [Cornify](https://www.cornify.com/) under 'Click me!' button which does not work on Github Pages live demo. 
